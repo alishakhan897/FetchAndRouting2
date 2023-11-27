@@ -1,0 +1,73 @@
+/* Write your CSS code here */
+.Blog-item-container {
+  width: 80%;
+  border: 1px solid #8e8e8e;
+  margin-top: 24px;
+  padding: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .Blog-item-container {
+    width: 80%;
+    display: flex;
+    padding: 15px;
+    margin-top: 34px;
+    border: 1px solid #8e8e8e;
+  }
+}
+.img-container {
+  display: flex;
+}
+.image-height {
+  height: 150px;
+  width: 100%;
+  border-radius: 10px;
+}
+@media screen and (min-width: 768px) {
+  .image-height {
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.avatr {
+  height: 30px;
+  border-radius: 100%;
+}
+@media screen and (min-width: 768px) {
+  .avatr {
+    height: 40px;
+  }
+}
+.small-container {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+@media screen and (min-width: 768px) {
+  .small-container {
+    margin-left: 25px;
+    width: 50%;
+  }
+}
+.avtr-div {
+  display: flex;
+
+  align-items: center;
+}
+.author-para {
+  padding-left: 14px;
+}
+.link-style {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+  text-decoration: none;
+}
